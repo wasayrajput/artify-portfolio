@@ -67,7 +67,8 @@ const Gallery = () => {
         {currentItems.map((item) => (
           <div key={item.id} className="art-card">
             <div className="img-container" onClick={() => setSelectedImg(item.image)}>
-              <img src={require(`../designs/${item.image}`)} alt={item.title} />
+              {/* <img src={require(`../designs/${item.image}`)} alt={item.title} /> */}
+              <img src={`/designs/${item.image}`} alt={item.title} />
             </div>
             <div className="art-info">
               <h3>{item.title}</h3> 
