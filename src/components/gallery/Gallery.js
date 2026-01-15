@@ -7,24 +7,19 @@ const Gallery = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [activeFilter, setActiveFilter] = useState('All'); 
   
-  // 1. Aapki requirement ke mutabiq 15 products
   const itemsPerPage = 15;
 
-  // Unique Categories nikalne ka logic
   const categories = ['All', ...new Set(ArtifyDesigns.map(item => item.category))];
 
-  // Filtered Data logic
   const filteredData = activeFilter === 'All' 
     ? ArtifyDesigns 
     : ArtifyDesigns.filter(item => item.category === activeFilter);
 
-  // --- PAGINATION LOGIC (Wapis Set Kiya) ---
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredData.slice(indexOfFirstItem, indexOfLastItem);
 
-  // Smart Sliding Numbers (Sirf 3 dikhane ke liye)
   let startPage = Math.max(1, currentPage - 1);
   let endPage = Math.min(totalPages, startPage + 2);
   if (endPage - startPage < 2) {
@@ -43,7 +38,7 @@ const Gallery = () => {
 
   const handleFilterChange = (cat) => {
     setActiveFilter(cat);
-    setCurrentPage(1); // Filter change hote hi page 1 par
+    setCurrentPage(1);
   };
 
   return (
@@ -66,8 +61,8 @@ const Gallery = () => {
       <div className="design-grid">
         {currentItems.map((item) => (
           <div key={item.id} className="art-card">
+            {/* Yahan maine path fix kar diya hai */}
             <div className="img-container" onClick={() => setSelectedImg(item.image)}>
-              {/* <img src={require(`../designs/${item.image}`)} alt={item.title} /> */}
               <img src={`/designs/${item.image}`} alt={item.title} />
             </div>
             <div className="art-info">
@@ -79,7 +74,7 @@ const Gallery = () => {
         ))}
       </div>
 
-      {/* --- PAGINATION UI (AB YE GAYAB NAHI HOGA) --- */}
+      {/* Pagination */}
       {totalPages > 1 && (
         <div className="pagination">
           {currentPage > 2 && (
@@ -110,12 +105,12 @@ const Gallery = () => {
         </div>
       )}
 
-      {/* Zoom Modal */}
+      {/* Zoom Modal - Yahan bhi require hata diya hai */}
       {selectedImg && (
         <div className="lightbox-overlay" onClick={() => setSelectedImg(null)}>
           <span className="close-btn">&times;</span>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <img src={require(`../designs/${selectedImg}`)} alt="Zoomed" className="lightbox-img" />
+            <img src={`/designs/${selectedImg}`} alt="Zoomed" className="lightbox-img" />
           </div>
         </div>
       )}
