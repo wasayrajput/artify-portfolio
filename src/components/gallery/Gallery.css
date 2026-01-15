@@ -1,0 +1,370 @@
+/* Gallery Layout */
+.gallery-container {
+  padding: 20px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+  text-align: left;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card Styling */
+.art-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.art-info {
+  padding: 20px;
+  text-align: left;
+  border-top: 1px solid #eee;
+}
+
+.art-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.category-tag {
+  color: #00d2d3;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.upload-info {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed #eee;
+}
+
+/* --- Lightbox / Zoom Styling --- */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: zoom-in;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: #00d2d3;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+
+.lightbox-img {
+  max-width: 100%;
+  max-height: 85vh;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  animation: zoomAni 0.3s ease-out;
+}
+
+@keyframes zoomAni {
+  from { transform: scale(0.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+
+.pagination {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Base style for all buttons */
+.page-btn {
+  padding: 8px 20px;
+  border: 2px solid #eef2f7;
+  background: #ffffff;
+  color: #444;
+  cursor: pointer;
+  border-radius: 8px; /* Capsule shape ke liye ise 30px bhi kar sakte hain */
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Hover effect */
+.page-btn:hover:not(:disabled) {
+  border-color: #00d2d3;
+  color: #00d2d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 210, 211, 0.2);
+}
+
+/* Active Page Style */
+.active-page {
+  padding: 8px 20px;
+  background: #00d2d3;
+  color: white;
+  border: 2px solid #00d2d3;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 210, 211, 0.4);
+}
+
+/* Arrow buttons (Prev/Next) */
+.arrow-btn {
+  background: #f8f9fa;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Disabled state */
+.page-btn:disabled {
+  background: #fdfdfd;
+  color: #ccc;
+  border-color: #f5f5f5;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* First page "1 .." button */
+.first-btn {
+  background: #f0f4f8;
+  border-style: dashed; /* Thoda alag dikhane ke liye */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1. Website ka overall background thoda premium karein */
+body {
+  background-color: #f8fafd; /* Bohat halka blue-white */
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(0, 210, 211, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(84, 160, 255, 0.05) 0px, transparent 50%);
+}
+
+/* 2. Card ki look thodi aur "Soft" karein */
+.art-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #edf2f7;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+/* 3. Mouse le jaane par Glow aur Lift effect */
+.art-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: #00d2d3;
+}
+
+/* 4. Image ki quality aur hover zoom */
+.img-container {
+  overflow: hidden; /* Ye zaroori hai taake zoom bahar na nikle */
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.img-container img {
+  transition: transform 0.6s ease;
+}
+
+.art-card:hover .img-container img {
+  transform: scale(1.08); /* Halki si smooth zoom */
+}
+
+/* 5. Date aur Icon ko thoda color dein */
+.upload-info span {
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  padding: 10px 25px;
+  border: 2px solid #e2e8f0;
+  background: white;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: #00d2d3;
+  color: #00d2d3;
+}
+
+.active-filter {
+  background: #00d2d3;
+  color: white;
+  border-color: #00d2d3;
+  box-shadow: 0 4px 15px rgba(0, 210, 211, 0.3);
+}
+
+/* Jab filter change ho toh grid smooth lage */
+.design-grid {
+  transition: opacity 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
