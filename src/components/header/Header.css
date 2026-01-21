@@ -6,11 +6,14 @@
   border-bottom: 4px solid #00d2d3;
 }
 
+/* Desktop Styles */
 .header h1 {
   font-size: 3rem;
   margin: 0;
   letter-spacing: 4px;
   font-weight: 800;
+  /* Extra safety line */
+  overflow-wrap: break-word; 
 }
 
 .header h1 span {
@@ -24,4 +27,18 @@
   margin-top: 10px;
   letter-spacing: 1px;
   font-style: italic;
+}
+
+/* --- MOBILE RESPONSIVE FIX --- */
+/* Jab screen choti hogi toh ye code chalega */
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8rem;   /* "STUDIO" ab screen se bahar nahi jayega */
+    letter-spacing: 2px; /* Spacing thori kam kar di */
+  }
+
+  .header p {
+    font-size: 0.9rem;   /* Subtitle ko bhi thora chota kar diya */
+    padding: 0 5px;
+  }
 }

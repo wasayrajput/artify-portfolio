@@ -9,7 +9,7 @@ export const ArtifyDesigns = [
 
   {
     id: 47,
-    title: "Kids&Co. Visiting Card",
+    title: "Kids & Co. Visiting Card",
     image: "visitingCard9.jpg",
     category: "Visiting Card",
     date: "15 Jan 2026"
