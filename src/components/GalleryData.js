@@ -1,10 +1,18 @@
 export const ArtifyDesigns = [
   {
+    id: 49,
+    title: "Umraah Package",
+    image: "umrahPoster.jpg",
+    category: "Business Card",
+    date: "30 Jan 2026"
+  },
+
+  {
     id: 48,
     title: "Kids&Co. Banner",
     image: "banner.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "19 Nov 2025"
   },
 
   {
@@ -12,7 +20,7 @@ export const ArtifyDesigns = [
     title: "Kids & Co. Visiting Card",
     image: "visitingCard9.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "18 Nov 2025"
   },
 
   {
@@ -20,7 +28,7 @@ export const ArtifyDesigns = [
     title: "Kids&Co. Logo",
     image: "logo5.jpg",
     category: "Logo",
-    date: "15 Jan 2026"
+    date: "14 Nov 2025"
   },
 
   {
@@ -28,7 +36,7 @@ export const ArtifyDesigns = [
     title: "Corporate Graphic Agency Flyer",
     image: "Poster 1.jpg",
     category: "Corporate Design",
-    date: "14 Jan 2026"
+    date: "10 Nov 2025"
   },
 
   {
@@ -36,7 +44,7 @@ export const ArtifyDesigns = [
     title: "Digital Marketing Agency",
     image: "Poster 2.jpg",
     category: "Business Card",
-    date: "14 Jan 2026"
+    date: "10 Nov 2025"
   },
 
   {
@@ -44,7 +52,7 @@ export const ArtifyDesigns = [
     title: "Creative Marketing Agency Ads",
     image: "Poster 3.jpg", 
     category: "Marketing",
-    date: "14 Jan 2026"
+    date: "8 Nov 2025"
   },
 
   {
@@ -52,7 +60,7 @@ export const ArtifyDesigns = [
     title: "Digital Marketing Agency Branding",
     image: "Poster 4.jpg",
     category: "Social Media",
-    date: "14 Jan 2026"
+    date: "7 Nov 2025"
   },
 
   {
@@ -60,7 +68,7 @@ export const ArtifyDesigns = [
     title: "Business Card",
     image: "Poster 5.jpg",
     category: "Business Card",
-    date: "14 Jan 2026"
+    date: "7 Nov 2025"
   },
 
   {
@@ -68,7 +76,7 @@ export const ArtifyDesigns = [
     title: "Physiotherapy Post",
     image: "therapy.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "11 Oct 2025"
   },
 
   {
@@ -76,7 +84,7 @@ export const ArtifyDesigns = [
     title: "The Guidance Post",
     image: "businessCard9.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "6 Aug 2025"
   },
 
   {
@@ -84,7 +92,7 @@ export const ArtifyDesigns = [
     title: "Independance day Post",
     image: "pakInde.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "5 Aug 2025"
   },
 
   {
@@ -92,7 +100,7 @@ export const ArtifyDesigns = [
     title: "The Guidance School Post",
     image: "businessCard8.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "4 Aug 2025"
   },
 
   {
@@ -100,7 +108,7 @@ export const ArtifyDesigns = [
       title: "Corporate Cover Design",
       image: "businessCard7.jpg",
       category: "Corporate Design",
-      date: "14 Jan 2026"
+      date: "16 June 2025"
   },
 
   {
@@ -108,7 +116,7 @@ export const ArtifyDesigns = [
     title: "Business Agency Card",
     image: "businessCard6.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "16 June 2025"
   },
 
   {
@@ -116,7 +124,7 @@ export const ArtifyDesigns = [
     title: "Business Flyer",
     image: "businessCard5.jpg",
     category: "Business Card",
-    date: "15 Jan 2026",
+    date: "1 May 2025",
   },
 
   {
@@ -124,7 +132,7 @@ export const ArtifyDesigns = [
     title: "Real Estate Flyer",
     image: "realEstate.jpg",
     category: "Real Estate",
-    date: "15 Jan 2026"
+    date: "1 May 2025"
   },
 
   {
@@ -132,7 +140,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard8.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "22 Apr 2025"
   },
 
   {
@@ -140,7 +148,7 @@ export const ArtifyDesigns = [
     title: "Business Flyer",
     image: "businessCard4.jpg",
     category: "Business Card",
-    date: "15 Jan 2026",
+    date: "17 Apr 2025",
   },
 
   {
@@ -148,7 +156,7 @@ export const ArtifyDesigns = [
     title: "Car Sale Poster",
     image: "carSale.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "19 Mar 2025"
   },
 
   {
@@ -156,7 +164,7 @@ export const ArtifyDesigns = [
     title: "Graphic Design Post",
     image: "graphicDesign.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "17 Mar 2025"
   },
 
   {
@@ -164,7 +172,7 @@ export const ArtifyDesigns = [
     title: "Coffee Cup",
     image: "coffeeCup.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "17 Mar 2025"
   },
 
   {
@@ -172,7 +180,7 @@ export const ArtifyDesigns = [
     title: "Business Flyer",
     image: "eventFlyer4.jpg",
     category: "Business Card",
-    date: "15 Jan 2026",
+    date: "16 Mar 2025",
   },
 
   {
@@ -180,7 +188,7 @@ export const ArtifyDesigns = [
     title: "Food Menu",
     image: "foodMenu2.jpg",
     category: "Food Menu",
-    date: "15 Jan 2026"
+    date: "14 Mar 2025"
   },
 
   {
@@ -188,7 +196,7 @@ export const ArtifyDesigns = [
     title: "Coffee Card",
     image: "coffeeCard.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "12 Mar 2025"
   },
 
   {
@@ -196,7 +204,7 @@ export const ArtifyDesigns = [
     title: "GYM Poster",
     image: "gymPoster.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "10 Mar 2025"
   },
 
   {
@@ -204,7 +212,7 @@ export const ArtifyDesigns = [
     title: "Pamela Festival Flyer",
     image: "eventFlyer3.jpg",
     category: "Event Flyer",
-    date: "15 Jan 2026",
+    date: "9 Mar 2025",
   },
 
   {
@@ -212,7 +220,7 @@ export const ArtifyDesigns = [
     title: "DJ Party Flyer",
     image: "eventFlyer2.jpg",
     category: "Event Flyer",
-    date: "15 Jan 2026",
+    date: "8 Mar 2025",
   },
 
   {
@@ -220,7 +228,7 @@ export const ArtifyDesigns = [
     title: "Films Poster Post",
     image: "filmsPoster.jpg",
     category: "Social Media",
-    date: "15 Jan 2026"
+    date: "6 Mar 2025"
   },
 
   {
@@ -228,7 +236,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard7.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "3 Mar 2025"
   },
 
   {
@@ -236,7 +244,7 @@ export const ArtifyDesigns = [
     title: "Smoothy",
     image: "smoothy.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "3 Mar 2025"
   },
 
   {
@@ -244,7 +252,7 @@ export const ArtifyDesigns = [
     title: "Food Menu",
     image: "foodMenu.jpg",
     category: "Food Menu",
-    date: "15 Jan 2026"
+    date: "28 Feb 2025"
   },
 
   {
@@ -252,7 +260,7 @@ export const ArtifyDesigns = [
     title: "Football",
     image: "football.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026",
+    date: "27 Feb 2025",
   },
 
   {
@@ -260,7 +268,7 @@ export const ArtifyDesigns = [
     title: "Hafiz Jee Viisting Card",
     image: "visitingCard6.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026",
+    date: "25 Feb 2025",
   },
 
   {
@@ -268,7 +276,7 @@ export const ArtifyDesigns = [
     title: "Filmy Realm Logo",
     image: "logo4.jpg",
     category: "Logo",
-    date: "15 Jan 2026"
+    date: "23 Feb 2025"
   },
 
   {
@@ -276,7 +284,7 @@ export const ArtifyDesigns = [
     title: "Incognito Mode",
     image: "incognito.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "20 Feb 2025"
   },
 
   {
@@ -284,7 +292,7 @@ export const ArtifyDesigns = [
     title: "Happy Kids Logo",
     image: "logo3.png",
     category: "Logo",
-    date: "15 Jan 2026"
+    date: "10 Feb 2025"
   },
 
   {
@@ -292,7 +300,7 @@ export const ArtifyDesigns = [
     title: "Beer Club Flyer",
     image: "eventFlyer1.jpg",
     category: "Event Flyer",
-    date: "15 Jan 2026",
+    date: "5 Feb 2025",
   },
 
   {
@@ -300,7 +308,7 @@ export const ArtifyDesigns = [
     title: "Marketing & Branding Agency",
     image: "socialMed.jpg",
     category: "Social Media",
-    date: "14 Jan 2026",
+    date: "5 Feb 2025",
   },
 
   {
@@ -308,7 +316,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard5.jpg",
     category: "Visiting Card",
-    date: "14 Jan 2026",
+    date: "27 Jan 2026",
   },
 
   {
@@ -316,7 +324,7 @@ export const ArtifyDesigns = [
     title: "Business Card",
     image: "businessCard3.jpg",
     category: "Business Card",
-    date: "15 Jan 2026"
+    date: "27 Jan 2025"
   },
 
   {
@@ -324,7 +332,7 @@ export const ArtifyDesigns = [
     title: "Orion Logo",
     image: "logo2.jpg",
     category: "Logo",
-    date: "15 Jan 2026"
+    date: "27 Jan 2025"
   },
 
    {
@@ -332,7 +340,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard1.jpg",
     category: "Visiting Card",
-    date: "14 Jan 2026",
+    date: "25 Jan 2025",
   },
 
   {
@@ -340,7 +348,7 @@ export const ArtifyDesigns = [
     title: "Arijitians Logo",
     image: "logo1.jpg",
     category: "Logo",
-    date: "15 Jan 2026"
+    date: "23 Jan 2025"
   },
 
   {
@@ -348,7 +356,7 @@ export const ArtifyDesigns = [
     title: "Business card",
     image: "businessCard2.jpg",
     category: "Business Card",
-    date: "15 Jan 2026"
+    date: "19 Jan 2025"
   },
 
   {
@@ -356,7 +364,7 @@ export const ArtifyDesigns = [
     title: "Washroom Sign",
     image: "washroomSign.jpg",
     category: "Creative Signage",
-    date: "15 Jan 2026"
+    date: "19 Jan 2025"
   },
 
   {
@@ -364,7 +372,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard4.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "19 Jan 2025"
   },
 
   {
@@ -372,7 +380,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard3.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "15 Jan 2025"
   },
 
   {
@@ -380,7 +388,7 @@ export const ArtifyDesigns = [
     title: "Visiting Card",
     image: "visitingCard2.jpg",
     category: "Visiting Card",
-    date: "15 Jan 2026"
+    date: "15 Jan 2025"
   },
 
   
