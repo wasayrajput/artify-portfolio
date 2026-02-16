@@ -1,5 +1,12 @@
 export const ArtifyDesigns = [
   {
+    id: 50,
+    title: "Maa's Restaurant Menu",
+    image: "menu3.jpg",
+    category: "Menu",
+    date: "16 fab 2026"
+  },
+  {
     id: 49,
     title: "Umraah Package",
     image: "umrahPoster.jpg",
