@@ -3,7 +3,7 @@ export const ArtifyDesigns = [
     id: 50,
     title: "Maa's Restaurant Menu",
     image: "menu3.jpg",
-    category: "Menu",
+    category: "Food Menu",
     date: "16 fab 2026"
   },
   {
