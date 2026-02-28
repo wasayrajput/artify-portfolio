@@ -1,11 +1,28 @@
 export const ArtifyDesigns = [
   {
+    id: 52,
+    title: "Creative Bio",
+    image: "portfolio.jpg",
+    category: "Creative Signage",
+    date: "28 Feb 2026"
+  },
+
+  {
+    id: 51,
+    title: "Infographic Pencil Design",
+    image: "pencil.jpg",
+    category: "Creative Signage",
+    date: "26 Feb 2026"
+  },
+
+  {
     id: 50,
     title: "Maa's Restaurant Menu",
     image: "menu3.jpg",
     category: "Food Menu",
-    date: "16 fab 2026"
+    date: "16 Feb 2026"
   },
+
   {
     id: 49,
     title: "Umraah Package",
