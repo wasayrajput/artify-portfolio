@@ -1,5 +1,21 @@
 export const ArtifyDesigns = [
   {
+    id: 54,
+    title: "Mobile Innovation",
+    image: "email.jpg",
+    category: "Creative Signage",
+    date: "4 Mar 2026"
+  },
+
+  {
+    id: 53,
+    title: "Mobile Innovation",
+    image: "mobile.jpg",
+    category: "Corporate Design",
+    date: "1 Mar 2026"
+  },
+
+  {
     id: 52,
     title: "Creative Bio",
     image: "portfolio.jpg",
