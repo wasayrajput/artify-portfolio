@@ -1,15 +1,31 @@
 export const ArtifyDesigns = [
   {
+   id: 56,
+   title: "Marygold Branding Logo",
+   image: "task8.jpg",
+   category: "Logo",
+   date: "8 Mar 2026"
+  },
+
+  {
+   id: 55,
+   title: "Jumma Mubarak Social Post",
+   image: "task7.jpg",
+   category: "Social Media",
+   date: "6 Mar 2026"
+  },
+  
+  {
     id: 54,
-    title: "Mobile Innovation",
+    title: "Welcome Email Template",
     image: "email.jpg",
-    category: "Creative Signage",
+    category: "Marketing",
     date: "4 Mar 2026"
   },
 
   {
     id: 53,
-    title: "Mobile Innovation",
+    title: "Corporate Service Showcase",
     image: "mobile.jpg",
     category: "Corporate Design",
     date: "1 Mar 2026"
@@ -17,17 +33,17 @@ export const ArtifyDesigns = [
 
   {
     id: 52,
-    title: "Creative Bio",
+    title: "Professional Portfolio Identity",
     image: "portfolio.jpg",
-    category: "Creative Signage",
+    category: "Corporate Design",
     date: "28 Feb 2026"
   },
 
   {
     id: 51,
-    title: "Infographic Pencil Design",
+    title: "Business Services Infographic",
     image: "pencil.jpg",
-    category: "Creative Signage",
+    category: "Marketing",
     date: "26 Feb 2026"
   },
 
