@@ -2,7 +2,7 @@ export const ArtifyDesigns = [
   {
    id: 57,
    title: "Modern Restaurant Dining Menu",
-   image: "menu8.1.jpg",
+   image: "menu3.1.jpggit",
    category: "Food Menu",
    date: "9 Mar 2026"
   },
