@@ -1,5 +1,13 @@
 export const ArtifyDesigns = [
   {
+   id: 57,
+   title: "Modern Restaurant Dining Menu",
+   image: "menu8.1.jpg",
+   category: "Food Menu",
+   date: "9 Mar 2026"
+  },
+
+  {
    id: 56,
    title: "Marygold Branding Logo",
    image: "task8.jpg",
