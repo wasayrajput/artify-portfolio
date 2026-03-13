@@ -1,5 +1,21 @@
 export const ArtifyDesigns = [
   {
+   id: 59,
+   title: "SMM Panel Promotional Graphic",
+   image: "task10.jpg",
+   category: "Social Media",
+   date: "12 Mar 2026"
+  },
+
+  {
+   id: 58,
+   title: "Digital Services & Development Overview",
+   image: "task9.jpg",
+   category: "Marketing",
+   date: "10 Mar 2026"
+  },
+
+  {
    id: 57,
    title: "Modern Restaurant Dining Menu",
    image: "menu4.jpg",
