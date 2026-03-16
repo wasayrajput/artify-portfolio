@@ -1,5 +1,29 @@
 export const ArtifyDesigns = [
   {
+   id: 62,
+   title: "Business Growth Banner",
+   image: "task13.jpg",
+   category: "Social Media",
+   date: "17 Mar 2026"
+  },
+
+  {
+   id: 61,
+   title: "Laylat Al-Qadr Informational Graphic",
+   image: "task14.jpg",
+   category: "Social Media",
+   date: "15 Mar 2026"
+  },
+
+  {
+   id: 60,
+   title: "Spicy Samosa Promotional Deal",
+   image: "samosaPost.jpg",
+   category: "Marketing",
+   date: "14 Mar 2026"
+  },
+
+  {
    id: 59,
    title: "SMM Panel Promotional Graphic",
    image: "task10.jpg",
