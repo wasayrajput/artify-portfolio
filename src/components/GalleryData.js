@@ -1,5 +1,21 @@
 export const ArtifyDesigns = [
   {
+   id: 64,
+   title: "Professional Business Identity Card",
+   image: "task16.jpg",
+   category: "Visiting Card",
+   date: "22 Mar 2026"
+  },
+
+  {
+   id: 63,
+   title: "Eid-ul-Fitr Greeting Post",
+   image: "task15.jpg",
+   category: "Social Media",
+   date: "20 Mar 2026"
+  },
+
+  {
    id: 62,
    title: "Business Growth Banner",
    image: "task13.jpg",
