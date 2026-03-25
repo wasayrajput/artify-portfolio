@@ -1,5 +1,53 @@
 export const ArtifyDesigns = [
   {
+   id: 70,
+   title: "Summer Beats Music Festival Poster",
+   image: "festivalPost.jpg",
+   category: "Social Media",
+   date: "25 Mar 2026"
+  },
+
+  {
+   id: 69,
+   title: "Luxury Beauty Salon Discount Offer",
+   image: "parlorPost.jpg",
+   category: "Marketing",
+   date: "25 Mar 2026"
+  },
+
+  {
+   id: 68,
+   title: "Geometric Red & Black Business Card",
+   image: "visitingCard11.jpg",
+   category: "Visiting Card",
+   date: "24 Mar 2026"
+  },
+
+  {
+   id: 67,
+   title: "Delicious Burger Promotional Poster",
+   image: "burgerPost.jpg",
+   category: "Food Menu",
+   date: "24 Mar 2026"
+  },
+
+  {
+   id: 66,
+   title: "Luxury Beauty Salon Service Menu",
+   image: "salonPost.jpg",
+   category: "Marketing",
+   date: "23 Mar 2026"
+  },
+
+  {
+   id: 65,
+   title: "Modern Corporate Visiting Card",
+   image: "visitingCard10.jpg",
+   category: "Visiting Card",
+   date: "23 Mar 2026"
+  },
+
+  {
    id: 64,
    title: "Professional Business Identity Card",
    image: "task16.jpg",
