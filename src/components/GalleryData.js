@@ -18,7 +18,7 @@ export const ArtifyDesigns = [
   {
    id: 68,
    title: "Geometric Red & Black Business Card",
-   image: "visitingCard11.jpg",
+   image: "visitingcard11.jpg",
    category: "Visiting Card",
    date: "24 Mar 2026"
   },
