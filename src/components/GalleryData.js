@@ -1,5 +1,13 @@
 export const ArtifyDesigns = [
   {
+   id: 72,
+   title: "Special Tasty Samosa Promo",
+   image: "samosaPost2.jpg",
+   category: "Food & Menu",
+   date: "27 Mar 2026"
+  },
+
+  {
    id: 71,
    title: "Red Sneakers Promotional Poster",
    image: "sneakerPost.jpg",
