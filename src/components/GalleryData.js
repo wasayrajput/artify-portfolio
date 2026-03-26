@@ -3,7 +3,7 @@ export const ArtifyDesigns = [
    id: 71,
    title: "Red Sneakers Promotional Poster",
    image: "sneakerPost.jpg",
-   category: "Social Media",
+   category: "Marketing",
    date: "26 Mar 2026"
   },
 
