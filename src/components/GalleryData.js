@@ -27,7 +27,7 @@ export const ArtifyDesigns = [
    id: 68,
    title: "Geometric Red & Black Business Card",
    image: "v-card-11.jpg",
-   category: "Visiting Card",
+   category: "Business Card",
    date: "24 Mar 2026"
   },
 
@@ -35,7 +35,7 @@ export const ArtifyDesigns = [
    id: 67,
    title: "Delicious Burger Promotional Poster",
    image: "burgerPost.jpg",
-   category: "Food Menu",
+   category: "Food & Menu",
    date: "24 Mar 2026"
   },
 
@@ -51,7 +51,7 @@ export const ArtifyDesigns = [
    id: 65,
    title: "Modern Corporate Visiting Card",
    image: "visitingCard10.jpg",
-   category: "Visiting Card",
+   category: "Business Card",
    date: "23 Mar 2026"
   },
 
@@ -59,7 +59,7 @@ export const ArtifyDesigns = [
    id: 64,
    title: "Professional Business Identity Card",
    image: "task16.jpg",
-   category: "Visiting Card",
+   category: "Business Card",
    date: "22 Mar 2026"
   },
 
@@ -91,7 +91,7 @@ export const ArtifyDesigns = [
    id: 60,
    title: "Spicy Samosa Promotional Deal",
    image: "samosaPost.jpg",
-   category: "Marketing",
+   category: "Food & Menu",
    date: "14 Mar 2026"
   },
 
@@ -115,7 +115,7 @@ export const ArtifyDesigns = [
    id: 57,
    title: "Modern Restaurant Dining Menu",
    image: "menu4.jpg",
-   category: "Food Menu",
+   category: "Food & Menu",
    date: "9 Mar 2026"
   },
 
@@ -147,7 +147,7 @@ export const ArtifyDesigns = [
     id: 53,
     title: "Corporate Service Showcase",
     image: "mobile.jpg",
-    category: "Corporate Design",
+    category: "Marketing",
     date: "1 Mar 2026"
   },
 
@@ -155,7 +155,7 @@ export const ArtifyDesigns = [
     id: 52,
     title: "Professional Portfolio Identity",
     image: "portfolio.jpg",
-    category: "Corporate Design",
+    category: "Marketing",
     date: "28 Feb 2026"
   },
 
@@ -171,7 +171,7 @@ export const ArtifyDesigns = [
     id: 50,
     title: "Maa's Restaurant Menu",
     image: "menu3.jpg",
-    category: "Food Menu",
+    category: "Food & Menu",
     date: "16 Feb 2026"
   },
 
@@ -179,7 +179,7 @@ export const ArtifyDesigns = [
     id: 49,
     title: "Umraah Package",
     image: "umrahPoster.jpg",
-    category: "Business Card",
+    category: "Event Flyer",
     date: "30 Jan 2026"
   },
 
@@ -195,7 +195,7 @@ export const ArtifyDesigns = [
     id: 47,
     title: "Kids & Co. Visiting Card",
     image: "visitingCard9.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "18 Nov 2025"
   },
 
@@ -211,7 +211,7 @@ export const ArtifyDesigns = [
     id: 45,
     title: "Corporate Graphic Agency Flyer",
     image: "Poster 1.jpg",
-    category: "Corporate Design",
+    category: "Marketing",
     date: "10 Nov 2025"
   },
 
@@ -219,7 +219,7 @@ export const ArtifyDesigns = [
     id: 44,
     title: "Digital Marketing Agency",
     image: "Poster 2.jpg",
-    category: "Business Card",
+    category: "Marketing",
     date: "10 Nov 2025"
   },
 
@@ -243,7 +243,7 @@ export const ArtifyDesigns = [
     id: 41,
     title: "Business Card",
     image: "Poster 5.jpg",
-    category: "Business Card",
+    category: "Marketing",
     date: "7 Nov 2025"
   },
 
@@ -283,7 +283,7 @@ export const ArtifyDesigns = [
       id: 36,
       title: "Corporate Cover Design",
       image: "businessCard7.jpg",
-      category: "Corporate Design",
+      category: "Event Flyer",
       date: "16 June 2025"
   },
 
@@ -299,7 +299,7 @@ export const ArtifyDesigns = [
     id: 34,
     title: "Business Flyer",
     image: "businessCard5.jpg",
-    category: "Business Card",
+    category: "Event Flyer",
     date: "1 May 2025",
   },
 
@@ -315,7 +315,7 @@ export const ArtifyDesigns = [
     id: 32,
     title: "Visiting Card",
     image: "visitingCard8.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "22 Apr 2025"
   },
 
@@ -323,7 +323,7 @@ export const ArtifyDesigns = [
     id: 31,
     title: "Business Flyer",
     image: "businessCard4.jpg",
-    category: "Business Card",
+    category: "Marketing",
     date: "17 Apr 2025",
   },
 
@@ -353,9 +353,9 @@ export const ArtifyDesigns = [
 
   {
     id: 27,
-    title: "Business Flyer",
+    title: "Small Business Saturday Promo",
     image: "eventFlyer4.jpg",
-    category: "Business Card",
+    category: "Social Media",
     date: "16 Mar 2025",
   },
 
@@ -363,7 +363,7 @@ export const ArtifyDesigns = [
     id: 26,
     title: "Food Menu",
     image: "foodMenu2.jpg",
-    category: "Food Menu",
+    category: "Food & Menu",
     date: "14 Mar 2025"
   },
 
@@ -411,7 +411,7 @@ export const ArtifyDesigns = [
     id: 20,
     title: "Visiting Card",
     image: "visitingCard7.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "3 Mar 2025"
   },
 
@@ -427,7 +427,7 @@ export const ArtifyDesigns = [
     id: 18,
     title: "Food Menu",
     image: "foodMenu.jpg",
-    category: "Food Menu",
+    category: "Food & Menu",
     date: "28 Feb 2025"
   },
 
@@ -443,7 +443,7 @@ export const ArtifyDesigns = [
     id: 16,
     title: "Hafiz Jee Viisting Card",
     image: "visitingCard6.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "25 Feb 2025",
   },
 
@@ -491,15 +491,15 @@ export const ArtifyDesigns = [
     id: 10,
     title: "Visiting Card",
     image: "visitingCard5.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "27 Jan 2026",
   },
 
   {
     id: 9,
-    title: "Business Card",
+    title: "Corporate Business Conference Flyer",
     image: "businessCard3.jpg",
-    category: "Business Card",
+    category: "Event Flyer",
     date: "27 Jan 2025"
   },
 
@@ -515,7 +515,7 @@ export const ArtifyDesigns = [
     id: 7,
     title: "Visiting Card",
     image: "visitingCard1.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "25 Jan 2025",
   },
 
@@ -529,9 +529,9 @@ export const ArtifyDesigns = [
 
   {
     id: 5,
-    title: "Business card",
+    title: "Corporate Business Card Template",
     image: "businessCard2.jpg",
-    category: "Business Card",
+    category: "Marketing",
     date: "19 Jan 2025"
   },
 
@@ -547,7 +547,7 @@ export const ArtifyDesigns = [
     id: 3,
     title: "Visiting Card",
     image: "visitingCard4.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "19 Jan 2025"
   },
 
@@ -555,7 +555,7 @@ export const ArtifyDesigns = [
     id: 2,
     title: "Visiting Card",
     image: "visitingCard3.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "15 Jan 2025"
   },
 
@@ -563,7 +563,7 @@ export const ArtifyDesigns = [
     id: 1,
     title: "Visiting Card",
     image: "visitingCard2.jpg",
-    category: "Visiting Card",
+    category: "Business Card",
     date: "15 Jan 2025"
   },
 
