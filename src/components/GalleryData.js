@@ -1,5 +1,21 @@
 export const ArtifyDesigns = [
   {
+   id: 74,
+   title: "Global Logistics & Cargo Service Ad",
+   image: "task20.jpg",
+   category: "Marketing",
+   date: "30 Mar 2026"
+  },
+
+  {
+   id: 73,
+   title: "Professional Restaurant Tri-Fold Menu",
+   image: "menu5.jpg",
+   category: "Food & Menu",
+   date: "29 Mar 2026"
+  },
+
+  {
    id: 72,
    title: "Special Tasty Samosa Promo",
    image: "samosaPost2.jpg",
