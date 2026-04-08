@@ -1,5 +1,29 @@
 export const ArtifyDesigns = [
   {
+   id: 77,
+   title: "Premium Coffee Shop UI Design",
+   image: "task23.jpg",
+   category: "Food & Menu",
+   date: "8 Apr 2026"
+  },
+
+  {
+   id: 76,
+   title: "New Arrival Electronics Sale Post",
+   image: "headphone.jpg",
+   category: "Social Media",
+   date: "7 Apr 2026"
+  },
+
+  {
+   id: 75,
+   title: "Artify Studio Business Card",
+   image: "bscard.jpg",
+   category: "Business Card",
+   date: "5 Apr 2026"
+  },
+
+  {
    id: 74,
    title: "Global Logistics & Cargo Service Ad",
    image: "task20.jpg",
