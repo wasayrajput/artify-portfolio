@@ -1,5 +1,13 @@
 export const ArtifyDesigns = [
   {
+   id: 80,
+   title: "Smilo Premium Product Packaging",
+   image: "smiloPack.jpg",
+   category: "Marketing",
+   date: "11 Apr 2026"
+  },
+
+  {
    id: 79,
    title: "Winter Collection Hoodies Showcase",
    image: "hoodiePost.jpg",
