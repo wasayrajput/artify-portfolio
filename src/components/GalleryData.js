@@ -1,5 +1,21 @@
 export const ArtifyDesigns = [
   {
+   id: 79,
+   title: "Winter Collection Hoodies Showcase",
+   image: "hoodiePost.jpg",
+   category: "Social Media",
+   date: "10 Apr 2026"
+  },
+
+  {
+   id: 78,
+   title: "Modern Furniture Collection Promo",
+   image: "furniture.jpg",
+   category: "Social Media",
+   date: "9 Apr 2026"
+  },
+
+  {
    id: 77,
    title: "Premium Coffee Shop UI Design",
    image: "task23.jpg",
