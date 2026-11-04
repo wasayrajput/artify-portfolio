@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Gallery.css';
 import { ArtifyDesigns } from '../GalleryData';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://artify-backend-roan.vercel.app';
 
 const Gallery = () => {
   const [designs, setDesigns] = useState(ArtifyDesigns);

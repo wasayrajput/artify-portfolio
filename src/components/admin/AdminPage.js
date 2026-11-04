@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './AdminPage.css';
 
 const ADMIN_SECRET = 'artify2026';
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://artify-backend-roan.vercel.app';
 
 const CATEGORY_OPTIONS = [
   'Event Flyer',
