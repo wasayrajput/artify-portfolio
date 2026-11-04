@@ -1,5 +1,26 @@
 export const ArtifyDesigns = [
   {
+   id: 83,
+   title: "High-Fashion Runway Event Flyer",
+   image: "eventFlyer5.jpg",
+   category: "Event Flyer",
+   date: "4 Nov 2026"
+  },
+  {
+   id: 82,
+   title: "Professional Identity & Visiting Card Design",
+   image: "visitingCard12.jpg",
+   category: "Business Card",
+   date: "27 Apr 2026"
+  },
+  {
+   id: 81,
+   title: "Children's Apparel Brand Visiting Card",
+   image: "visitingCard11.jpg",
+   category: "Business Card",
+   date: "12 Apr 2026"
+  },
+  {
    id: 80,
    title: "Smilo Premium Product Packaging",
    image: "smiloPack.jpg",
